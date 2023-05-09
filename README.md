@@ -1,8 +1,7 @@
-- 👋 Hi, I’m @ahjenkins
-- 👀 I’m interested in masterminding innovative projects with technology.
-- 🌱 I’m currently learning front-end web development.
-- 💞️ I’m looking to collaborate on projects relating to fitness, technology, networking, books, social media, film, entertainment, finance, and business.
-- 📫 How to reach me ...
+👋 Hi, I’m Anna!
+👩🏻‍💻 I’m interested in masterminding innovative projects with technology.
+🌱 I’m currently learning Python and front-end web development.
+💞️ I love to be challenged and create things to help other people.
 
 <!---
 ahjenkins/ahjenkins is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
