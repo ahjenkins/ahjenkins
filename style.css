@@ -50,6 +50,10 @@
     border-color: #F07B3F;
 }
 
+#view-resume {
+    display: none;
+}
+
 #view-resume:active {
     background: #F07B3F;
     border-color: #F07B3F;
