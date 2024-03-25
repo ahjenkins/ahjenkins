@@ -1,0 +1,132 @@
+/* NAVBAR */
+
+/* navbar tabs */
+.nav-pills .nav-link {
+    color: black;
+}
+
+.nav-pills .nav-link.active {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* .nav-pills .nav-link:hover {
+    text-decoration: underline;
+} */
+
+#navbar > .container {
+    background-color: #FFF;
+}
+
+/* HOME */
+.btn-primary {
+    background: #F07B3F;
+    border-color: #F07B3F;
+}
+
+.btn-primary:hover {
+    /* background: #F07B3F;
+    border-color: #F07B3F; */
+    background: #2D4059;
+    color: white;
+    border-color: #2D4059;   
+}
+
+.btn.btn-primary:active {
+    background: #2D4059;
+    color: white;
+    border-color: #2D4059;   
+}
+
+.btn-outline-primary {
+    background: #FFF;
+    color: #F07B3F;
+    border-color: #F07B3F;
+}
+
+.btn-outline-primary:hover {
+    background: #F07B3F;
+    border-color: #F07B3F;
+}
+
+#view-resume:active {
+    background: #F07B3F;
+    border-color: #F07B3F;
+}
+
+/* PROJECTS */
+.card-cover {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+/* .card > div > h3 > a {
+    text-decoration: none;
+    color: #FFF;
+} */
+
+/* show titles on hover, with black opacity */
+
+.card-info {
+    visibility: hidden;
+    color: #000;
+}
+
+#card-cuse {
+    background-image: url("./assets/cuse.png");
+    
+}
+
+#card-smart {
+    background-image: url("./assets/smartcity.png");
+}
+
+#card-college {
+    background-image: url("./assets/cfp.png");
+}
+
+/* CONTACT */
+textarea {
+    resize: vertical;
+    max-height: 350px;
+}
+
+/* ABOUT */
+#about > .container {
+    display: grid;
+    grid-template-columns: .7fr 1.5fr;
+    margin-top: 75px;
+    width: 100%;
+}
+
+/* mobile phones media query */
+@media (max-width: 991px) {
+    /* home */
+    .headshot {    
+        margin: 0 auto;
+        display: block;
+    }
+
+    #img-headshot {
+        width: auto;
+    }
+
+    .home-content > h1, .home-content > p {
+        text-align: center;
+    }
+
+    .home-content > h1 {
+        font-size: 2em;
+    }
+
+    .home-content > p {
+        font-size: 1.2em;        
+    }
+
+    .home-content > div > a > button {
+        display: none;
+    }
+}
